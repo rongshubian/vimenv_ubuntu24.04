@@ -49,3 +49,7 @@ $0
 \`\`\`
 endsnippet
 
+***3.update mermaid version to 11.2.2*** 
+proxy:curl --proxy-user xxx:'password' -x http://xxproxy.com:8080 https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.min.js > ./mermaid.min.js
+noproxy:curl https://cdn.jsdelivr.net/npm/mermaid@11.12.2/dist/mermaid.min.js > .app/_static/mermaid.min.js
+
